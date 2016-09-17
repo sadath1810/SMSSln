@@ -1,0 +1,43 @@
+﻿@model SMSBO.Student
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create Student</h2>
+
+
+<p>
+    @ViewBag.Message
+</p>
+<form name="frmCreateStudent" action="~/Student/Create" method="post">
+
+<table>
+    <tr>
+        <td>Student Id</td>
+        <td><input type="text" name="StudentId" id="StudentId" value="" /></td>
+    </tr>
+    <tr>
+        <td>Student Name</td>
+        <td><input type="text" name="StudentName" id="StudentName" value="" /></td>
+    </tr>
+    <tr>
+        <td>Maths</td>
+        <td><input type="text" name="Maths" id="Maths" value="" /></td>
+    </tr>
+    <tr>
+        <td>Physics</td>
+        <td><input type="text" name="Physics" id="Physics" value="" /></td>
+    </tr>
+    <tr>
+        <td>Chemistry</td>
+        <td><input type="text" name="Chemistry" id="Chemistry" value="" /></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input type="submit" name="CreateStudent" id="CreateStudent" value="Create Student" />
+        </td>
+    </tr>
+</table>
+
+</form>

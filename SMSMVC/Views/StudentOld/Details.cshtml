@@ -1,0 +1,37 @@
+﻿@model SMSBO.Student
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Student Details</h2>
+<table width="100%">
+    <tr>
+        <td>Student Id</td>
+        <td>@Model.StudentId</td>
+    </tr>
+    <tr>
+        <td>Student Name</td>
+        <td>@Model.StudentName</td>
+    </tr>
+    <tr>
+        <td>Maths</td>
+        <td>@Model.Maths</td>
+    </tr>
+    <tr>
+        <td>Physics</td>
+        <td>@Model.Physics</td>
+    </tr>
+    <tr>
+        <td>Chemistry</td>
+        <td>@Model.Chemistry</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+<br />
+<br />
+@Html.ActionLink("Back to Student List","Index","Student")

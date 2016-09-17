@@ -1,0 +1,43 @@
+﻿@model List<SMSBO.Student>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Student - Index</h2>
+<b>List of students should be displayed here</b>
+
+<p>
+    @ViewBag.Message
+    @ViewData["Message"]
+</p>
+<p>
+    @*<a href="~/Student/Create">Create Student</a>*@
+    @Html.ActionLink("Create Student", "Create", "Student")
+</p>
+
+<table width="100%">
+    <tr>
+        <td>Student Id</td>
+        <td>Student Name</td>
+        <td>Action</td>
+    </tr>
+@foreach (var item in Model)
+{
+    <tr>
+        @*<td><a href="/Student/Details/@item.StudentId"> @item.StudentId</a></td>*@
+        @*<td>@item.StudentId</td>*@
+
+        <td>@Html.ActionLink(item.StudentId.ToString(), "Details","Student",new { id = item.StudentId},null)</td>
+        <td>@item.StudentName</td>
+        <td>
+            @Html.ActionLink("Edit","Edit","Student", new {id=item.StudentId}, null)&nbsp;|&nbsp;
+            @Html.ActionLink("Details","Details","Student", new {id=item.StudentId}, null)&nbsp;|&nbsp;
+            @Html.ActionLink("Delete","Delete","Student", new {id=item.StudentId}, null)
+        </td>
+    </tr>
+}
+
+
+</table>
+

@@ -1,0 +1,13 @@
+D:\Training\CX\Batch1\SMSSln\SMSWin\bin\Debug\SMSWin.exe.config
+D:\Training\CX\Batch1\SMSSln\SMSWin\bin\Debug\SMSWin.exe
+D:\Training\CX\Batch1\SMSSln\SMSWin\bin\Debug\SMSWin.pdb
+D:\Training\CX\Batch1\SMSSln\SMSWin\bin\Debug\SMSBL.dll
+D:\Training\CX\Batch1\SMSSln\SMSWin\bin\Debug\SMSBO.dll
+D:\Training\CX\Batch1\SMSSln\SMSWin\bin\Debug\SMSBL.pdb
+D:\Training\CX\Batch1\SMSSln\SMSWin\bin\Debug\SMSBO.pdb
+D:\Training\CX\Batch1\SMSSln\SMSWin\obj\Debug\SMSWin.csprojResolveAssemblyReference.cache
+D:\Training\CX\Batch1\SMSSln\SMSWin\obj\Debug\SMSWin.Form1.resources
+D:\Training\CX\Batch1\SMSSln\SMSWin\obj\Debug\SMSWin.Properties.Resources.resources
+D:\Training\CX\Batch1\SMSSln\SMSWin\obj\Debug\SMSWin.csproj.GenerateResource.Cache
+D:\Training\CX\Batch1\SMSSln\SMSWin\obj\Debug\SMSWin.exe
+D:\Training\CX\Batch1\SMSSln\SMSWin\obj\Debug\SMSWin.pdb

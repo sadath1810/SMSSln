@@ -1,0 +1,39 @@
+﻿@model SMSBO.Student
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Are you sure you want to delete the below student?</h2>
+<table width="100%">
+    <tr>
+        <td>Student Id</td>
+        <td>@Model.StudentId</td>
+    </tr>
+    <tr>
+        <td>Student Name</td>
+        <td>@Model.StudentName</td>
+    </tr>
+    <tr>
+        <td>Maths</td>
+        <td>@Model.Maths</td>
+    </tr>
+    <tr>
+        <td>Physics</td>
+        <td>@Model.Physics</td>
+    </tr>
+    <tr>
+        <td>Chemistry</td>
+        <td>@Model.Chemistry</td>
+    </tr>
+    
+</table>
+
+<form action="/Student/Delete" method="post">
+    <input type="hidden" value="@Model.StudentId" name="StudentId" />  
+    <input type="submit" value ="Delete Student" name="DeleteStudent" />
+</form>
+
+<br />
+<br />
+@Html.ActionLink("Back to Student List","Index","Student")

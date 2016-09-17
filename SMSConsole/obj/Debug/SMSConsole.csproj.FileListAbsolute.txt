@@ -1,0 +1,10 @@
+D:\Training\CX\Batch1\SMSSln\SMSConsole\bin\Debug\SMSConsole.exe.config
+D:\Training\CX\Batch1\SMSSln\SMSConsole\bin\Debug\SMSConsole.exe
+D:\Training\CX\Batch1\SMSSln\SMSConsole\bin\Debug\SMSConsole.pdb
+D:\Training\CX\Batch1\SMSSln\SMSConsole\obj\Debug\SMSConsole.csprojResolveAssemblyReference.cache
+D:\Training\CX\Batch1\SMSSln\SMSConsole\obj\Debug\SMSConsole.exe
+D:\Training\CX\Batch1\SMSSln\SMSConsole\obj\Debug\SMSConsole.pdb
+D:\Training\CX\Batch1\SMSSln\SMSConsole\bin\Debug\SMSBL.dll
+D:\Training\CX\Batch1\SMSSln\SMSConsole\bin\Debug\SMSBO.dll
+D:\Training\CX\Batch1\SMSSln\SMSConsole\bin\Debug\SMSBL.pdb
+D:\Training\CX\Batch1\SMSSln\SMSConsole\bin\Debug\SMSBO.pdb

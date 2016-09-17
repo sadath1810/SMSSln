@@ -1,0 +1,43 @@
+﻿@model SMSBO.Student
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit Student</h2>
+
+
+<p>
+    @ViewBag.Message
+</p>
+<form name="frmCreateStudent" action="~/Student/Edit" method="post">
+
+<table>
+    <tr>
+        <td>Student Id</td>
+        <td><input type="text" name="StudentId" id="StudentId" value="@Model.StudentId" /></td>
+    </tr>
+    <tr>
+        <td>Student Name</td>
+        <td><input type="text" name="StudentName" id="StudentName" value="@Model.StudentName" /></td>
+    </tr>
+    <tr>
+        <td>Maths</td>
+        <td><input type="text" name="Maths" id="Maths" value="@Model.Maths" /></td>
+    </tr>
+    <tr>
+        <td>Physics</td>
+        <td><input type="text" name="Physics" id="Physics" value="@Model.Physics" /></td>
+    </tr>
+    <tr>
+        <td>Chemistry</td>
+        <td><input type="text" name="Chemistry" id="Chemistry" value="@Model.Chemistry" /></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input type="submit" name="UpdateStudent" id="UpdateStudent" value="Update Student" />
+        </td>
+    </tr>
+</table>
+
+</form>

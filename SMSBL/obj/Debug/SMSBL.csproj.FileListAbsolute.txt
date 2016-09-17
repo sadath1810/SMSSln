@@ -1,0 +1,7 @@
+D:\Training\CX\Batch1\SMSSln\SMSBL\obj\Debug\SMSBL.csprojResolveAssemblyReference.cache
+D:\Training\CX\Batch1\SMSSln\SMSBL\bin\Debug\SMSBL.dll
+D:\Training\CX\Batch1\SMSSln\SMSBL\bin\Debug\SMSBL.pdb
+D:\Training\CX\Batch1\SMSSln\SMSBL\bin\Debug\SMSBO.dll
+D:\Training\CX\Batch1\SMSSln\SMSBL\bin\Debug\SMSBO.pdb
+D:\Training\CX\Batch1\SMSSln\SMSBL\obj\Debug\SMSBL.dll
+D:\Training\CX\Batch1\SMSSln\SMSBL\obj\Debug\SMSBL.pdb
